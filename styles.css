@@ -1,0 +1,32 @@
+/* comprendre comment fonctionnent les div avec les images*/
+/* chercher plus d'infos
+en ligne*/
+/*body{
+    color: red; /* notion d'héritage= tout élément HTML "enfant" va hériter, 
+    "en cascades", des styles de ses parents*/
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0; 
+}*/ 
+
+/*h1,p{
+    color: orangered;
+}*/
+
+p{
+    color: blue;
+}
+span{
+    color: yellowgreen; /*fonctionne car span est plus proche de l'élément
+    auquel on veut appliquer une règle*/
+}
+
+#test{
+    color: black;
+}
+
+.para1{
+    color: red;
+} /* puisque .para1 est plus proche du début du texte que p,
+le paragraphe va prendre ce style et pas le bleu. Il y a conflit. Entre une balise et une class,
+la priorité sera donnée à cette-dernière car elle est la plus proche.*/
