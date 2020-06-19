@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    height: 32px;
+    padding: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+}
+#img1absolute{
+    width: 100%;
+    position: absolute;
+}
+p{
+    color: white;
+}
