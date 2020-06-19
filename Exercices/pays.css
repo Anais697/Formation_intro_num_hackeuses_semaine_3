@@ -1,0 +1,72 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header{
+    background-color:#CFC6D9;
+    height: 150px;
+}
+.parallax {
+    background-image: url("sky.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: left;
+}
+nav{
+    text-align: right;
+}
+.a1{
+    text-decoration: none;
+    color: black; 
+    font-size: 1.5em;
+}
+.a2{
+    margin-right: 50px; 
+    margin-inline-start: 20px;
+    text-decoration: none;
+    color: purple;
+    font-weight: bolder;
+    font-size: 1em;
+    
+}
+
+h2{
+    font-weight: bold;
+    border: groove #CFC6D9 5px ;
+}
+.italy, .netherlands{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mexico{
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.pays1, .pays3{
+    float: left;
+}
+
+.pays2{
+    float: right; 
+}
+
+img{
+    width: 10%;
+    height: auto;
+}
+
+.p1, .p3{
+    text-align: left;
+    
+}
+.p2{
+    text-align: right;
+}

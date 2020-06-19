@@ -1,0 +1,7 @@
+ul{
+    list-style: none;
+}
+header{
+    padding: 1rem 2rem;
+    display: inline-block; /*on peut utiliser flex*/
+}
