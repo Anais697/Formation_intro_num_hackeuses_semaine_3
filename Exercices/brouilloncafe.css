@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    height: 32px;
+    padding: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+}
+nav{
+    color: white;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+img{
+    width: 100%;
+    
+}
+.texte {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    right: 25%;
+    bottom: 50%;
+}
+
+
+
+ /* Header Laury*/
+    /* Nav */ 
+
+header {
+    height: 70px;
+    background-color: #000000;
+    margin: 0; 
+}
+
+a
+{
+    all: unset;
+    padding: 25px 25px 25px 25px; 
+}
+
+a:hover
+{
+    background-color: #444;
+    padding: 25px 25px 25px 25px; 
+}
+
+.active 
+{
+    background-color: #444; 
+    padding: 25px 25px 25px 25px; 
+}
+
+nav
+{
+   display: flex;
+   flex-direction: row-wrap;  
+   justify-content: space-between; 
+   align-content: center;
+   color: white;
+   margin: 0; 
+}
+
+nav h1
+{
+    text-indent: 1em; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 5px 0px 0px 5px; 
+    font-size: 16px;
+}
+
+li{
+    margin-top: 20px; 
+}
+
+.siteHeaderButton {
+    cursor: pointer;
+  }
+  
+    /* Fin de la nav */ 
